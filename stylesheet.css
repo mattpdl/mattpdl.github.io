@@ -1,3 +1,8 @@
+footer {
+	margin-top: 1em;
+	text-align: center;
+}
+
 i {
-	margin: auto 3px auto 3px;
+	margin: auto 1em auto 1em;
 }

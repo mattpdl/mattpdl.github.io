@@ -1,8 +1,30 @@
+.col-lg-4 {
+	margin-top: 1em;
+}
+
 footer {
 	margin-top: 1em;
 	text-align: center;
 }
 
+h1 {
+	font-size: 28px !important;
+}
+
 i {
 	margin: 0 2px;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#aboutImg {
+	width: 80%;
+}
+
+#tetrisImg {
+	width: 60%;
 }

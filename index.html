@@ -15,25 +15,28 @@
 	</head>
 	<body class="bg-light">
 		<nav class="navbar navbar-expand-md navbar-dark sticky-top shadow bg-primary">
-			<a class="navbar-brand" href="#">
-				<img id="profile-img" class="d-inline-block align-text-top" src="https://pbs.twimg.com/profile_images/1348811718072274944/Ek-czX0j_400x400.jpg" alt="">
+			<a class="navbar-brand d-flex align-items-center" href="#">
+				<img id="profile-img" class="mr-2" src="https://pbs.twimg.com/profile_images/1348811718072274944/Ek-czX0j_400x400.jpg" alt="">
 				<span>Matthew Ponce de Leon</span>
 			</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" 
+			  aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			<div class="collapse navbar-collapse" id="navbarNav">
-				<ul class="navbar-nav">
-					<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-					<li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
-					<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-				</ul>
+				<div class="navbar-nav d-flex flex-row justify-content-center ml-auto">
+					<a class="nav-item nav-link mx-2 mx-md-0" href="https://facebook.com/mattpdl01" target="_blank"><i class="fa-brands fa-facebook fa-2x" title="Facebook"></i></a>
+					<a class="nav-item nav-link mx-2 mx-md-0" href="https://github.com/mattpdl" target="_blank"><i class="fa-brands fa-github fa-2x" title="GitHub"></i></a>
+					<a class="nav-item nav-link mx-2 mx-md-0" href="https://instagr.am/mattpdl01" target="_blank"><i class="fa-brands fa-instagram fa-2x" title="Instagram"></i></a>
+					<a class="nav-item nav-link mx-2 mx-md-0" href="https://linkedin.com/in/mattpdl" target="_blank"><i class="fa-brands fa-linkedin fa-2x" title="LinkedIn"></i></a>
+					<a class="nav-item nav-link mx-2 mx-md-0" href="https://twitter.com/mattpdl" target="_blank"><i class="fa-brands fa-twitter fa-2x" title="Twitter"></i></a>
+				</div></div>
 			</div>
 		</nav>
 		<main class="container">
-			<div class="row mt-3">
-					<div id="about" class="col-xs-12 col-lg-4"><div class="section shadow mb-3 bg-white p-3">
-						<h1>About</h1>
+			<div class="row mt-4">
+					<div id="about" class="col-xs-12 col-lg-4 mb-4"><div class="section shadow-lg bg-white p-3">
+						<h1>About Me</h1>
 						<p>Hello there! My name is Matthew. I was born and raised in Southern California, and have stayed local 
 							for college as I’m now going into my fourth year as a computer science major at UCLA. Last summer, I 
 							interned remotely for Facebook and gained experience with iOS development. I’m excited to join Twitter 
@@ -43,27 +46,27 @@
 							my experience or any opportunities in software engineering!</p>
 						<img class="img-fluid" src="college-signing-day.jpg" alt="Matthew with Joe and Josie Bruin, UCLA's mascots">
 					</div></div>
-					<div id="portfolio" class="col-xs-12 col-lg-8"><div class="section shadow mb-3 bg-white p-3">
+					<div id="portfolio" class="col-xs-12 col-lg-8 mb-4"><div class="section shadow-lg bg-white p-3">
 						<h1>Portfolio</h1>
 						<div class="container-fluid">
 							<div class="row">
-								<a class="col-xs-12 col-md-6 col-lg-4 text-center mb-3" href="https://github.com/mattpdl/TkTetris" target="_blank">
+								<a class="col-xs-12 col-md-6 col-lg-4 mb-3 text-center" href="https://github.com/mattpdl/TkTetris" target="_blank">
 									TkTetris<img class="img-fluid" src="tetris.png" alt="Screenshot of TkTetris running on macOS">
 								</a>
-								<a class="col-xs-12 col-md-6 col-lg-4 text-center mb-3" href="https://github.com/mattpdl/TkAtomas" target="_blank">
-									TkAtomas<img class="img-fluid" src="atomas.png" alt="Screenshot of TkAtomas running on macOS">
+								<a class="col-xs-12 col-md-6 col-lg-4 mb-3 text-center" href="https://github.com/mattpdl/TkAtomas" target="_blank">
+									TkAtomas<img class="img-fluid" src="https://github.com/mattpdl/TkAtomas/raw/master/atomas.png" alt="Screenshot of TkAtomas running on macOS">
 								</a>
-								<a class="col-xs-12 col-md-6 col-lg-4 text-center mb-3" href="https://github.com/mattpdl/cs-at-ucla" target="_blank">
+								<a class="col-xs-12 col-md-6 col-lg-4 mb-3 text-center" href="https://github.com/mattpdl/cs-at-ucla" target="_blank">
 									CS @ UCLA<img class="img-fluid" src="cs-at-ucla.png" alt="Screenshot of CS at UCLA website">
 								</a>
-								<a class="col-xs-12 col-md-6 col-lg-4 text-center" href="https://github.com/mattpdl/bruin-dining-plus" target="_blank">
+								<a class="col-xs-12 col-md-6 col-lg-4 mb-3 text-center" href="https://github.com/mattpdl/bruin-dining-plus" target="_blank">
 									Bruin Dining+<img class="img-fluid" src="bruin-dining-plus.png" alt="Screenshot of Bruin Dining Plus running on Android">
 								</a>
-								<a class="col-xs-12 col-md-6 col-lg-4 text-center" href="https://github.com/mattpdl/chirpy-for-twitter" target="_blank">
+								<a class="col-xs-12 col-md-6 col-lg-4 mb-3 text-center" href="https://github.com/mattpdl/chirpy-for-twitter" target="_blank">
 									Chirpy for Twitter<img class="img-fluid" src="https://github.com/mattpdl/chirpy-for-twitter/raw/main/chirpy-demo.gif" 
 										alt="Animation of scrolling through the tweets timeline and composing a tweet on Chirpy for Twitter on iOS">
 								</a>
-								<a class="col-xs-12 col-md-6 col-lg-4 text-center" href="https://github.com/mattpdl/instagram-clone/raw/main/ig-demo.gif" target="_blank">
+								<a class="col-xs-12 col-md-6 col-lg-4 mb-3 text-center" href="https://github.com/mattpdl/instagram-clone" target="_blank">
 									Instagram Clone<img class="img-fluid" src="https://github.com/mattpdl/instagram-clone/raw/main/ig-demo.gif" 
 										alt="Animation of scrolling through the photos feed and uploading a photo on this Instagram clone for iOS">
 								</a>
@@ -72,12 +75,5 @@
 					</div></div>
 			</div>
 		</main>
-		<footer id="contact" class="mb-2 text-center">
-			<a href="https://facebook.com/mattpdl01" target="_blank"><i class="fa-brands fa-facebook-square fa-3x" title="Facebook"></i></a>
-			<a href="https://github.com/mattpdl" target="_blank"><i class="fa-brands fa-github-square fa-3x" title="GitHub"></i></a>
-			<a href="https://instagr.am/mattpdl01" target="_blank"><i class="fa-brands fa-instagram-square fa-3x" title="Instagram"></i></a>
-			<a href="https://linkedin.com/in/mattpdl" target="_blank"><i class="fa-brands fa-linkedin fa-3x" title="LinkedIn"></i></a>
-			<a href="https://twitter.com/mattpdl" target="_blank"><i class="fa-brands fa-twitter-square fa-3x" title="Twitter"></i></a>
-		</footer>
 	</body>
 </html> 

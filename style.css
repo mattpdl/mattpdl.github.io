@@ -1,9 +1,5 @@
-i {
-	margin: 0 2px;
-}
-
 nav {
-	border-radius: 0  0 0.5em 0.5em;
+	border-radius: 0 0 0.5em 0.5em;
 }
 
 .section {
@@ -12,6 +8,6 @@ nav {
 
 #profile-img {
 	border-radius: 50%;
-	height: 24px;
-	width: 24px;
+	height: 1.5em;
+	width: 1.5em;
 }

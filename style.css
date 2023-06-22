@@ -1,3 +1,11 @@
+.card .static, .card:hover .animated {
+	display: flex;
+}
+
+.card .animated, .card:hover .static {
+	display: none;
+}
+
 nav {
 	border-radius: 0 0 0.75em 0.75em;
 }
